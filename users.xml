@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user username="admin">
+        <password>password</password>
+        <firstName>foo</firstName>
+        <lastName>bar</lastName>
+    </user>
+    <user username="SampleUSN">
+        <password>SamplePW</password>
+        <firstName>SampleFN</firstName>
+        <lastName>SampleLN</lastName>
+    </user>
+
+<user username="p"><password>p</password><firstName>p</firstName><lastName>p</lastName></user><user username="q"><password>q</password><firstName>q</firstName><lastName>q</lastName></user><user username="s"><password>s</password><firstName>s</firstName><lastName>s</lastName></user></users>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+    <song songCode="000001">
+        <title>Levitating</title>
+        <genres>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Dua Lipa</singer>
+        <album>Future Nostalgia (The Moonlight Edition)</album>
+        <imagePath>images/levitating.jpg</imagePath>
+    </song>
+    <song songCode="000002">
+        <title>Hollywood's Bleeding</title>
+        <genres>
+            <genre>HipHop</genre>
+            <genre>Rap</genre>
+        </genres>
+        <singer>Post Malone</singer>
+        <album>Hollywood's Bleeding</album>
+        <imagePath>images/hbleeding.jpg</imagePath>
+    </song>
+    <song songCode="000003">
+        <title>Beautiful Scars</title>
+        <genres>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Maximillian</singer>
+        <album>Still Alive (Deluxe Edition)</album>
+        <imagePath>images/bscars.jpg</imagePath>
+    </song>
+    <song songCode="000004">
+        <title>Old Town Road (Remix)</title>
+        <genres>
+            <genre>Country Rap</genre>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Lil Nas X ft. Billy Ray Cyrus</singer>
+        <album>7</album>
+        <imagePath>images/7.jpg</imagePath>
+    </song>
+    <song songCode="000005">
+        <title>Leave the Door Open</title>
+        <genres>
+            <genre>Soul Music</genre>
+            <genre>Contemporary RnB</genre>
+        </genres>
+        <singer>Silk Sonic</singer>
+        <album>An Evening with Silk Sonic</album>
+        <imagePath>images/silksonic.jpg</imagePath>
+    </song>
+    <song songCode="000006">
+        <title>Million Reasons</title>
+        <genres>
+            <genre>Country Music</genre>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Lady Gaga</singer>
+        <album>Joanne</album>
+        <imagePath>images/joanne.jpg</imagePath>
+    </song>
+    <song songCode="000007">
+        <title>PILLOWTALK</title>
+        <genres>
+            <genre>Pop</genre>
+        </genres>
+        <singer>ZAYN</singer>
+        <album>Mind of Mine</album>
+        <imagePath>images/MindofMine.jpg</imagePath>
+    </song>
+    <song songCode="000008">
+        <title>After Hours</title>
+        <genres>
+            <genre>RnB</genre>
+            <genre>Soul</genre>
+        </genres>
+        <singer>The Weeknd</singer>
+        <album>After Hours</album>
+        <imagePath>images/afterhours.jpg</imagePath>
+    </song>
+    <song songCode="000009">
+        <title>Sign of the Times</title>
+        <genres>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Harry Styles</singer>
+        <album>Harry Styles</album>
+        <imagePath>images/hstyles.jpg</imagePath>
+    </song>
+    <song songCode="000010">
+        <title>comethru</title>
+        <genres>
+            <genre>Pop</genre>
+        </genres>
+        <singer>Jeremy Zucker</singer>
+        <album>summer ,</album>
+        <imagePath>images/summer.jpg</imagePath>
+    </song>
+</songs>
