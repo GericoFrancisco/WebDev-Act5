@@ -14,6 +14,7 @@ function login(e){
     xhr.onreadystatechange = function(){
         if(xhr.readyState == 4 && xhr.status == 200){
             // console.log(xhr.response);
+            console.log(this.responseText);
             if(this.responseText == "Correct")
                 window.location.replace("table.php");
             else if(this.responseText == "Wrong")
@@ -24,6 +25,7 @@ function login(e){
     }
     xhr.send();
 }
+
 function register(){
     var usn = d.getElementById('usn').value;
     var pw = d.getElementById('pw').value;
