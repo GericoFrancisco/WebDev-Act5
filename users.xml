@@ -4,11 +4,16 @@
         <password>password</password>
         <firstName>foo</firstName>
         <lastName>bar</lastName>
+        <profilePic>images/defaultProfile.png</profilePic>
+        <status>offline</status>
     </user>
     <user username="SampleUSN">
         <password>SamplePW</password>
         <firstName>SampleFN</firstName>
         <lastName>SampleLN</lastName>
+        <profilePic>images/defaultProfile.png</profilePic>
+        <status>offline</status>
     </user>
 
 <user username="p"><password>p</password><firstName>p</firstName><lastName>p</lastName></user><user username="q"><password>q</password><firstName>q</firstName><lastName>q</lastName></user><user username="s"><password>s</password><firstName>s</firstName><lastName>s</lastName></user></users>
+</users>
