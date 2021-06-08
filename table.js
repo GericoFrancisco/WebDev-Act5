@@ -2,6 +2,12 @@ var d = document;
 
 d.getElementById('logout').addEventListener('click', logOutFunc);
 
+window.onload = function(){
+    printS();
+    getData();
+    getActiveUsers();
+}
+
 function getData(){                                             //loads table at the start
     var xhr = new XMLHttpRequest();
 
@@ -61,7 +67,35 @@ function logOutFunc(){
 
     xhr.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
+            // console.log(this.responseText);
             location.replace('index.php');
+        }
+    }
+    xhr.send();
+}
+
+function printS(){
+    console.log("SSSSSSSSSSSSSSS");
+    // var xhr = new XMLHttpRequest();
+
+    // xhr.open("GET", "getActiveUsers.php", true);
+
+    // xhr.onreadystatechange = function(){
+    //     if(this.readyState == 4 && this.status == 200){
+    //         console.log("SSSSSSSSSSSS");
+    //     }
+    // }
+    // xhr.send();
+}
+
+function getActiveUsers(){
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "getActiveUsers.php", true);
+
+    xhr.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status == 200){
+            d.getElementById("user-panel").innerHTML = this.responseText;
         }
     }
     xhr.send();

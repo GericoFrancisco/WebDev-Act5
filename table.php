@@ -50,16 +50,34 @@ if(isset($_SESSION['users'])){
         #details{
             vertical-align: top;
         }
+        #table{
+            width: 90%
+        }
+        #user-panel{
+            width: 10%;
+        }
+        #table, #user-panel{
+            display: inline-block;
+        }
+        #user-panel{
+            top: 10px;
+            right: 5px;
+            width: 200px;
+            height: 500px;
+            background-color: yellowgreen;
+        }
     </style>
     
 </head>
-<body onload="getData();" >
+<body >
+<!-- <body onload="getData();" > -->
     <div id="header">
         <button id="logout" >Log Out</button>
     </div>
     <div id="table"></div>
-   <div id="modal">
-   </div>
+   <div id="user-panel"></div>
+   <!-- <div onload="getActiveUsers();" id="user-panel"></div> -->
+   <div id="modal"></div>
     <script src="table.js"></script>
 </body>
 </html>
