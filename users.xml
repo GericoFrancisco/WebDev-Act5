@@ -2,5 +2,4 @@
 <users>
     <user username="admin"><password>password</password><firstName>foo</firstName><lastName>bar</lastName><profilePic>images/defaultProfile.png</profilePic><status>online</status></user>
     <user username="SampleUSN"><password>SamplePW</password><firstName>SampleFN</firstName><lastName>SampleLN</lastName><profilePic>images/defaultProfile.png</profilePic><status>offline</status></user>
-    <user username="sample"><password>sample</password><firstName>sample</firstName><lastName>sample</lastName><profilePic>images/defaultProfile.png</profilePic><status>offline</status></user>
 </users>
